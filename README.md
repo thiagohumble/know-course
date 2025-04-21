@@ -8,6 +8,7 @@
 
 ## ✨ Funcionalidades Principais
 
+
 * **Listagem de Cursos:** Navegue por uma variedade de cursos disponíveis.
 * **Detalhes do Curso:** Visualize informações detalhadas sobre cada curso, incluindo descrição e preço.
 * **Player de Vídeo:** Acesse o conteúdo do curso através de um player de vídeo integrado.
