@@ -8,6 +8,7 @@
 
 ## ✨ Funcionalidades Principais
 
+![home](https://github.com/user-attachments/assets/525eebf2-633b-4a49-92be-fee062c66e27)
 
 * **Listagem de Cursos:** Navegue por uma variedade de cursos disponíveis.
 * **Detalhes do Curso:** Visualize informações detalhadas sobre cada curso, incluindo descrição e preço.
