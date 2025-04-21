@@ -1,14 +1,12 @@
 # KnowCourse - Sua Plataforma de Aprendizado Online
 
-![image](https://github.com/user-attachments/assets/ca343d81-0324-4b2e-a255-0c254028e111)
+![home](https://github.com/user-attachments/assets/525eebf2-633b-4a49-92be-fee062c66e27)
 
 
 
 **KnowCourse** é uma plataforma de aprendizado online construída com Next.js, Tailwind CSS e TypeScript. O objetivo é fornecer uma experiência de aprendizado intuitiva e moderna, com funcionalidades como listagem de cursos, detalhes, acesso ao player de vídeo e um sistema de autenticação simulado.
 
 ## ✨ Funcionalidades Principais
-
-![home](https://github.com/user-attachments/assets/525eebf2-633b-4a49-92be-fee062c66e27)
 
 * **Listagem de Cursos:** Navegue por uma variedade de cursos disponíveis.
 * **Detalhes do Curso:** Visualize informações detalhadas sobre cada curso, incluindo descrição e preço.
