@@ -1,7 +1,6 @@
 # KnowCourse - Sua Plataforma de Aprendizado Online
 
-
-![home](https://github.com/user-attachments/assets/17c1dfb9-530a-4bff-92cb-f391c6f28b28)
+![home](https://github.com/user-attachments/assets/e7c7e644-5044-4302-b843-ac979e5fd54e)
 
 
 
