@@ -29,7 +29,7 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
     Abra seu terminal ou prompt de comando e navegue até o diretório onde você deseja clonar o projeto. Execute o seguinte comando:
 
     ```bash
-    git clone [[https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)](https://github.com/thiagohumble/know-course.git)
+    git clone https://github.com/thiagohumble/know-course.git
     ```
 
 2.  **Navegue até o Diretório do Projeto:**
