@@ -75,31 +75,5 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
 * **Tailwind CSS:** Framework CSS utilitário para estilização rápida e responsiva.
 
 ## 📂 Estrutura de Pastas Relevante
-📁 know-course-app/            # 🏠 Raiz do projeto
-├── 🏗️ .next/                 # 🏭 Pasta de build (gerada automaticamente)
-├── 🌐 public/                # 🌍 Arquivos estáticos
-│   └── 🎨 assets/            # 🖼️ Imagens, ícones, fonts
-├── 🚀 app/                   # 🛸 Pasta principal (App Router)
-│   ├── 🔐 (auth)/            # 🔑 Rotas de autenticação (agrupamento opcional)
-│   │   └── ...               # 🛡️ Componentes de autenticação
-│   ├── 🎓 courses/           # 📚 Pasta de cursos
-│   │   ├── 🆔 [id]/          # 🏷️ Pasta dinâmica por curso
-│   │   │   ├── 🎬 player/    # ▶️ Pasta do player
-│   │   │   │   └── 📺 page.tsx  # 🎥 Player do curso
-│   │   │   └── 📄 page.tsx   # 📝 Detalhes do curso
-│   │   └── 📄 page.tsx       # 📋 Listagem de cursos
-│   ├── 🧩 components/        # 🧱 Componentes compartilhados
-│   │   ├── 🃏 CourseCard.tsx # 🎴 Card do curso
-│   │   ├── 📹 VideoPlayer.tsx # 🎞️ Player de vídeo
-│   │   ├── 🔄 Loading.tsx    # ⏳ Componente de loading
-│   │   └── 🏷️ Logo.tsx       # 🎨 Logo animado
-│   ├── 📊 data/              # 🗃️ Dados da aplicação
-│   │   ├── 📚 courses.ts     # 🏫 Lista de cursos
-│   │   └️ 👤 user.ts         # 🤵 Dados do usuário
-│   └── 🎨 styles/            # 🖌️ Estilos globais
-│       └── 🌍 globals.css    # 🎨 CSS global
-├── ⚙️ tailwind.config.js     # 🌈 Config do Tailwind
-├── 📜 tsconfig.json          # 🛠️ Config do TypeScript
-├── 📦 package.json           # 📦 Dependências do projeto
-└️ ⚡ next.config.js          # ⚙️ Config do Next.js
+![image](https://github.com/user-attachments/assets/d193f27e-1c91-4e6f-9f31-e6f4ed5316cb)
 
