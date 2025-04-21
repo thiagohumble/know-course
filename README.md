@@ -7,15 +7,18 @@
 
 
 
-**KnowCourse** é uma plataforma de aprendizado online construída com Next.js, Tailwind CSS e TypeScript. O objetivo é fornecer uma experiência de aprendizado intuitiva e moderna, com funcionalidades como listagem de cursos, detalhes, acesso ao player de vídeo e um sistema de autenticação simulado.
+**KnowCourse** é uma plataforma de aprendizado online construída com Next.js, Tailwind CSS e TypeScript. O objetivo é fornecer uma experiência de aprendizado intuitiva e moderna, com funcionalidades como listagem de cursos, detalhes, acesso ao player de vídeo e um sistema de autenticação simulado. 
 
 ## ✨ Funcionalidades Principais
 
 * **Listagem de Cursos:** Navegue por uma variedade de cursos disponíveis.
+  ![navegueCurso](https://github.com/user-attachments/assets/3a8fb003-7464-4ef8-9aa8-0b0c6afefe78)
 * **Detalhes do Curso:** Visualize informações detalhadas sobre cada curso, incluindo descrição e preço.
+  ![detalheCurso](https://github.com/user-attachments/assets/1ce26c6d-700e-48c8-9a6f-23c9a1525cf5)
 * **Player de Vídeo:** Acesse o conteúdo do curso através de um player de vídeo integrado.
+  ![playerCurso](https://github.com/user-attachments/assets/018b00c5-053c-47b4-8ae2-1e5278438bf3)
 * **Autenticação Simples:** Um sistema de login/logout simulado para gerenciar o acesso aos cursos comprados.
-* **Conteúdo Estruturado:** Visualize o conteúdo do curso em formato de passos para facilitar o aprendizado.
+  ![autenticationCourse](https://github.com/user-attachments/assets/1cc7374d-a8a4-4573-a488-65d73c4a6f97)
 * **Interface Moderna:** Design elegante e responsivo com Tailwind CSS.
 * **Tipagem Segura:** Desenvolvimento com TypeScript para maior segurança e manutenibilidade do código.
 
