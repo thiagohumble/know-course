@@ -14,7 +14,7 @@
 * **Interface Moderna:** Design elegante e responsivo com Tailwind CSS.
 * **Tipagem Segura:** Desenvolvimento com TypeScript para maior segurança e manutenibilidade do código.
 
-## 🚀 Pré-requisitos
+## 🌍 Pré-requisitos
 
 Antes de começar, você precisará ter o seguinte instalado em sua máquina:
 
