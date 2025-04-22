@@ -1,13 +1,11 @@
 'use client';
 
-
 import Link from 'next/link';
 import { useAuth } from '../(auth)/AuthContext';
 import { courses, Course } from '../../data/courses';
 
-
 export default function HomePage() {
-  const { isLoggedIn, purchasedCourses } = useAuth();
+  const { isLoggedIn, purchasedCourses, favorites, toggleFavorite } = useAuth();
 
   return (
     <main className="p-6 bg-gray-900 min-h-screen">
@@ -16,12 +14,29 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {courses.map((course: Course) => {
             const isUserPurchased = isLoggedIn && purchasedCourses.includes(course.id);
+            const isFavorite = isLoggedIn && favorites.includes(course.id);
+
             return (
-              <div key={course.id} className="bg-zinc-800 p-6 rounded-xl shadow-md flex flex-col justify-between">
+              <div key={course.id} className="bg-zinc-800 p-6 rounded-xl shadow-md flex flex-col justify-between relative">
+                {/* Botão de favorito (canto superior direito) */}
+                {isLoggedIn && (
+                  <button
+                    onClick={(e) => {
+                      e.preventDefault();
+                      toggleFavorite(course.id);
+                    }}
+                    className="absolute top-4 right-4 text-2xl focus:outline-none cursor-pointer"
+                    aria-label={isFavorite ? "Remover dos favoritos" : "Adicionar aos favoritos"}
+                  >
+                    {isFavorite ? '❤️' : '🤍'}
+                  </button>
+                )}
+
                 <div>
-                  <h2 className="text-lg text-orange-500 font-semibold mb-2">{course.title}</h2>
+                  <h2 className="text-lg text-orange-500 font-semibold mb-2 pr-6">{course.title}</h2>
                   <p className="text-sm text-zinc-300 line-clamp-2 mb-4">{course.description}</p>
                 </div>
+                
                 <Link
                   href={`/courses/${course.id}`}
                   className={`mt-4 inline-block rounded-lg text-center font-semibold ${

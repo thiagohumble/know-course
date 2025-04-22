@@ -1,4 +1,5 @@
-import { Course } from '@/data/courses';
+import { Course } from "../../../../../data/courses";
+
 
 interface CourseContentProps {
   steps: Course['steps'];

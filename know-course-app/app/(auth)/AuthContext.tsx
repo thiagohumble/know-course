@@ -6,6 +6,8 @@ import { user as initialUser } from '../../data/user';
 interface AuthContextType {
   isLoggedIn: boolean;
   purchasedCourses: number[];
+  favorites: number[];
+  toggleFavorite: (courseId: number) => void;
   login: () => void;
   logout: () => void;
 }
@@ -15,6 +17,15 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [purchasedCourses, setPurchasedCourses] = useState(initialUser.courses.map(c => c.courseId));
+  const [favorites, setFavorites] = useState<number[]>(initialUser.favorites);
+
+  const toggleFavorite = (courseId: number) => {
+    setFavorites(prev => 
+      prev.includes(courseId)
+        ? prev.filter(id => id !== courseId)
+        : [...prev, courseId]
+    );
+  }
 
   const login = () => {
     setIsLoggedIn(true);
@@ -27,7 +38,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ isLoggedIn, purchasedCourses, login, logout }}>
+    <AuthContext.Provider value={{ isLoggedIn, purchasedCourses, favorites, toggleFavorite, login, logout }}>
       {children}
     </AuthContext.Provider>
   );

@@ -1,9 +1,11 @@
+// app/(auth)/components/UserHeader.tsx
 'use client';
 
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Logo from './Logo';
 import { user as initialUser, User } from '../../../data/user';
+import Link from 'next/link';
 
 interface UserHeaderProps {
   onLogout: () => void;
@@ -35,6 +37,14 @@ const UserHeader: React.FC<UserHeaderProps> = ({ onLogout, onLogin, isLoggedIn }
           <span className="text-white font-semibold">{user.name.charAt(0).toUpperCase()}</span>
         </div>
         <span className="text-white mr-5">{user.name}</span>
+        {isLoggedIn && (
+          <Link 
+            href="/favorites"
+            className="text-white hover:text-orange-500 transition-colors mr-4"
+          >
+            ❤️ Meus Favoritos
+          </Link>
+        )}
         {shouldShowAuthButton && (
           <button
             onClick={isLoggedIn ? onLogout : onLogin}
