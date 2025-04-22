@@ -1,7 +1,7 @@
 'use client';
 
 import { createContext, useState, useContext } from 'react';
-import { user as initialUser } from '@/data/user';
+import { user as initialUser } from '../../data/user';
 
 interface AuthContextType {
   isLoggedIn: boolean;

@@ -1,10 +1,11 @@
 'use client'
 
 
-import { courses } from '@/data/courses'
+
 import { useParams, useRouter } from 'next/navigation'
 import { useState } from 'react'
 import CourseContent from './components/CourseContent'
+import { courses } from '../../../../data/courses'
 
 export default function PlayerPage() {
   const { id } = useParams()

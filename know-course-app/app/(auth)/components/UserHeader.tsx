@@ -1,9 +1,9 @@
 'use client';
 
-import { user as initialUser, User } from '@/data/user';
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Logo from './Logo';
+import { user as initialUser, User } from '../../../data/user';
 
 interface UserHeaderProps {
   onLogout: () => void;
