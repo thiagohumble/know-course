@@ -1,4 +1,3 @@
-// app/(auth)/components/UserHeader.tsx
 'use client';
 
 import { useState, useEffect } from 'react';

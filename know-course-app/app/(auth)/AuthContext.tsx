@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useState, useContext } from 'react';
+import { createContext, useState, useContext, useEffect } from 'react';
 import { user as initialUser } from '../../data/user';
 
 interface AuthContextType {
@@ -17,15 +17,22 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [purchasedCourses, setPurchasedCourses] = useState(initialUser.courses.map(c => c.courseId));
-  const [favorites, setFavorites] = useState<number[]>(initialUser.favorites);
+  const [favorites, setFavorites] = useState<number[]>(() => {
+    const storedFavorites = localStorage.getItem('knowcourse_favorites');
+    return storedFavorites ? JSON.parse(storedFavorites) : initialUser.favorites;
+  });
+
+  useEffect(() => {
+    localStorage.setItem('knowcourse_favorites', JSON.stringify(favorites));
+  }, [favorites]);
 
   const toggleFavorite = (courseId: number) => {
-    setFavorites(prev => 
+    setFavorites(prev =>
       prev.includes(courseId)
         ? prev.filter(id => id !== courseId)
         : [...prev, courseId]
     );
-  }
+  };
 
   const login = () => {
     setIsLoggedIn(true);
