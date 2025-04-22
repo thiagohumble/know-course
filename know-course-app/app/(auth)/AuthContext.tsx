@@ -18,12 +18,17 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [purchasedCourses, setPurchasedCourses] = useState(initialUser.courses.map(c => c.courseId));
   const [favorites, setFavorites] = useState<number[]>(() => {
-    const storedFavorites = localStorage.getItem('knowcourse_favorites');
-    return storedFavorites ? JSON.parse(storedFavorites) : initialUser.favorites;
+    if (typeof window !== 'undefined') {
+      const storedFavorites = localStorage.getItem('knowcourse_favorites');
+      return storedFavorites ? JSON.parse(storedFavorites) : initialUser.favorites;
+    }
+    return initialUser.favorites; // Retorna o valor inicial no servidor
   });
 
   useEffect(() => {
-    localStorage.setItem('knowcourse_favorites', JSON.stringify(favorites));
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('knowcourse_favorites', JSON.stringify(favorites));
+    }
   }, [favorites]);
 
   const toggleFavorite = (courseId: number) => {
