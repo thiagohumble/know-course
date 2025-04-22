@@ -78,5 +78,31 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
 * **Tailwind CSS:** Framework CSS utilitário para estilização rápida e responsiva.
 
 ## 📂 Estrutura de Pastas Relevante
-![image](https://github.com/user-attachments/assets/d193f27e-1c91-4e6f-9f31-e6f4ed5316cb)
+📂 know-course/
+├── 📂 app/
+│   ├── 📂 (auth)/
+│   │   └── 📂 components/
+│   │       ├── 📄 Loading.tsx ✨
+│   │       ├── 📄 Logo.tsx 🎨
+│   │       ├── 📄 UserHeader.tsx 👤
+│   │       └── 📄 AuthContext.tsx 🔑
+│   ├── 📂 favorites/
+│   │   └── 📄 page.tsx ❤️
+│   ├── 📂 courses/
+│   │   ├── 📂 [id]/
+│   │   │   ├── 📂 player/
+│   │   │   │   └── 📂 componentes/
+│   │   │   │       └── 📄 CourseContent.tsx 📜
+│   │   │   │   └── 📄 page.tsx 🎬
+│   │   │   └── 📄 page.tsx ℹ️
+│   │   └── 📄 page.tsx 📚
+│   ├── 📄 layout.tsx ⚙️
+│   └── 📄 page.tsx 🏠
+├── 📂 data/
+│   ├── 📄 courses.ts 📝
+│   └── 📄 user.ts 🧑‍🤝‍🧑
+├── 📂 public/
+│   └── 📂 ... 🖼️
+└── 📂 styles/
+    └── 📄 globals.css 💅
 
