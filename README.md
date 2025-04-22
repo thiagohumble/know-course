@@ -80,21 +80,39 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
 ## 📂 Estrutura de Pastas Relevante
 ![image](https://github.com/user-attachments/assets/5d7a5a6a-3496-4c98-95a4-0a12af8d5bdf)
 
+
 📂: Pasta (diretório)
+
 📄: Arquivo
+
 ✨: Algo com funcionalidade interativa ou visual (Loading)
+
 🎨: Elemento de design (Logo)
+
 👤: Componente relacionado ao usuário (UserHeader)
+
 🔑: Contexto de autenticação (AuthContext)
+
 ❤️: Página de favoritos
+
 📜: Conteúdo detalhado (CourseContent)
+
 🎬: Página de visualização/player
+
 ℹ️: Página de detalhes (informações)
+
 📚: Página principal de cursos
+
 ⚙️: Layout da aplicação
+
 🏠: Página inicial (splash screen)
+
 📝: Arquivo de dados (cursos)
+
 🧑‍🤝‍🧑: Arquivo de dados (usuário)
+
 🖼️: Pasta de arquivos públicos (imagens, etc.)
+
 💅: Arquivo de estilos (CSS)
+
 
