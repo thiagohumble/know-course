@@ -78,31 +78,23 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
 * **Tailwind CSS:** Framework CSS utilitário para estilização rápida e responsiva.
 
 ## 📂 Estrutura de Pastas Relevante
-📂 know-course/
-├── 📂 app/
-│   ├── 📂 (auth)/
-│   │   └── 📂 components/
-│   │       ├── 📄 Loading.tsx ✨
-│   │       ├── 📄 Logo.tsx 🎨
-│   │       ├── 📄 UserHeader.tsx 👤
-│   │       └── 📄 AuthContext.tsx 🔑
-│   ├── 📂 favorites/
-│   │   └── 📄 page.tsx ❤️
-│   ├── 📂 courses/
-│   │   ├── 📂 [id]/
-│   │   │   ├── 📂 player/
-│   │   │   │   └── 📂 componentes/
-│   │   │   │       └── 📄 CourseContent.tsx 📜
-│   │   │   │   └── 📄 page.tsx 🎬
-│   │   │   └── 📄 page.tsx ℹ️
-│   │   └── 📄 page.tsx 📚
-│   ├── 📄 layout.tsx ⚙️
-│   └── 📄 page.tsx 🏠
-├── 📂 data/
-│   ├── 📄 courses.ts 📝
-│   └── 📄 user.ts 🧑‍🤝‍🧑
-├── 📂 public/
-│   └── 📂 ... 🖼️
-└── 📂 styles/
-    └── 📄 globals.css 💅
+![image](https://github.com/user-attachments/assets/5d7a5a6a-3496-4c98-95a4-0a12af8d5bdf)
+
+📂: Pasta (diretório)
+📄: Arquivo
+✨: Algo com funcionalidade interativa ou visual (Loading)
+🎨: Elemento de design (Logo)
+👤: Componente relacionado ao usuário (UserHeader)
+🔑: Contexto de autenticação (AuthContext)
+❤️: Página de favoritos
+📜: Conteúdo detalhado (CourseContent)
+🎬: Página de visualização/player
+ℹ️: Página de detalhes (informações)
+📚: Página principal de cursos
+⚙️: Layout da aplicação
+🏠: Página inicial (splash screen)
+📝: Arquivo de dados (cursos)
+🧑‍🤝‍🧑: Arquivo de dados (usuário)
+🖼️: Pasta de arquivos públicos (imagens, etc.)
+💅: Arquivo de estilos (CSS)
 
