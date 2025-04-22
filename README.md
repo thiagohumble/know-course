@@ -81,41 +81,33 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
 ![image](https://github.com/user-attachments/assets/5d7a5a6a-3496-4c98-95a4-0a12af8d5bdf)
 
 
-📂: Pasta (diretório)
-
-📄: Arquivo
-
-✨: Algo com funcionalidade interativa ou visual (Loading)
-
-🎨: Elemento de design (Logo)
-
-👤: Componente relacionado ao usuário (UserHeader)
-
-🔑: Contexto de autenticação (AuthContext)
-
-❤️: Página de favoritos
-
-📜: Conteúdo detalhado (CourseContent)
-
-🎬: Página de visualização/player
-
-ℹ️: Página de detalhes (informações)
-
-📚: Página principal de cursos
-
-⚙️: Layout da aplicação
-
-🏠: Página inicial (splash screen)
-
-📝: Arquivo de dados (cursos)
-
-🧑‍🤝‍🧑: Arquivo de dados (usuário)
-
-🖼️: Pasta de arquivos públicos (imagens, etc.)
-
-💅: Arquivo de estilos (CSS)
-
-
+📂 know-course/<br>
+├── 📂 app/<br>
+│   ├── 📂 (auth)/<br>
+│   │   └── 📂 components/<br>
+│   │       ├── 📄 Loading.tsx ✨<br>
+│   │       ├── 📄 Logo.tsx 🎨<br>
+│   │       ├── 📄 UserHeader.tsx 👤<br>
+│   │       └── 📄 AuthContext.tsx 🔑<br>
+│   ├── 📂 favorites/<br>
+│   │   └── 📄 page.tsx ❤️<br>
+│   ├── 📂 courses/<br>
+│   │   ├── 📂 [id]/<br>
+│   │   │   ├── 📂 player/<br>
+│   │   │   │   └── 📂 componentes/<br>
+│   │   │   │       └── 📄 CourseContent.tsx 📜<br>
+│   │   │   │   └── 📄 page.tsx 🎬<br>
+│   │   │   └── 📄 page.tsx ℹ️<br>
+│   │   └── 📄 page.tsx 📚<br>
+│   ├── 📄 layout.tsx ⚙️<br>
+│   └── 📄 page.tsx 🏠<br>
+├── 📂 data/<br>
+│   ├── 📄 courses.ts 📝<br>
+│   └── 📄 user.ts 🧑‍🤝‍🧑<br>
+├── 📂 public/<br>
+│   └── 📂 ... 🖼️<br>
+└── 📂 styles/<br>
+    └── 📄 globals.css 💅<br>
 
 📂: Pasta (diretório)<br>
 📄: Arquivo<br>
