@@ -1,8 +1,9 @@
 'use client';
 
-import { courses, Course } from '@/data/courses';
+
 import Link from 'next/link';
 import { useAuth } from '../(auth)/AuthContext';
+import { courses, Course } from '../../data/courses';
 
 
 export default function HomePage() {

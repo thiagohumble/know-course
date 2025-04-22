@@ -1,12 +1,13 @@
 'use client';
 
-import { courses } from '@/data/courses'; // imoprta dados do curso
+
 import { useRouter } from 'next/navigation'; // importa useRouter
 import React, { useEffect, useState } from 'react'; // importa useEffect e useState (executar código após a renderização, cria variável de estado)
-import { useAuth } from '@/app/(auth)/AuthContext';
 import { useParams } from 'next/navigation'; // importa useParams
 import Link from 'next/link'
 import CourseContent from './player/components/CourseContent';
+import { courses } from '../../../data/courses';
+import { useAuth } from '../../(auth)/AuthContext';
 
 interface PageProps {
   params: { id: string }

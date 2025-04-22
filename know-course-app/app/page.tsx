@@ -16,7 +16,7 @@ const SplashPage = () => {
       setIsVisible(false);
       setLogoPosition('top-header');
       setIsLoading(false);
-    }, 3000); // Tempo de exibição do splash (3 segundos)
+    }, 1000); // Tempo de exibição do splash (3 segundos)
 
     return () => clearTimeout(timer); // Limpar o timer se o componente for desmontado
   }, []);
