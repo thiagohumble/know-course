@@ -20,6 +20,9 @@
   ![autenticationCourse](https://github.com/user-attachments/assets/1cc7374d-a8a4-4573-a488-65d73c4a6f97)
 * **Interface Moderna:** Design elegante e responsivo com Tailwind CSS.
 * **Tipagem Segura:** Desenvolvimento com TypeScript para maior segurança e manutenibilidade do código.
+* **Funcionalidade favoritar:** um curso e os inclua em uma rota adicional de favoritos com um link para ela no header.
+![image](https://github.com/user-attachments/assets/3593c8c2-a5de-4d17-a197-271941b1d433)
+
 
 ## 🌍 Pré-requisitos
 
