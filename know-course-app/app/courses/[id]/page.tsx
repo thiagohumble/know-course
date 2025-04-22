@@ -8,6 +8,11 @@ import { useParams } from 'next/navigation'; // importa useParams
 import Link from 'next/link'
 import CourseContent from './player/components/CourseContent';
 
+interface PageProps {
+  params: { id: string }
+  searchParams?: Record<string, string | string[] | undefined>
+}
+
 export default function CourseDetailsPage() {
   const router = useRouter();
   const { isLoggedIn, purchasedCourses } = useAuth();

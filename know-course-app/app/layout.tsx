@@ -29,7 +29,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <AuthProvider>
       <RootLayoutInner children={children} />
       <footer className="bg-gray-900 text-white p-4 text-center">
-        <p>&copy; {new Date().getFullYear()} Nome da Marca. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} <a href="https://github.com/thiagohumble" className='cursor-pointer'>github.com/thiagohumble</a> ;) Todos os direitos reservados.</p>
       </footer>
     </AuthProvider>
   );
