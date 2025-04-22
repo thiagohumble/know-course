@@ -80,35 +80,6 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
 ## 📂 Estrutura de Pastas Relevante
 ![image](https://github.com/user-attachments/assets/5d7a5a6a-3496-4c98-95a4-0a12af8d5bdf)
 
-
-📂 know-course/<br>
-├── 📂 app/<br>
-│   ├── 📂 (auth)/<br>
-│   │   └── 📂 components/<br>
-│   │       ├── 📄 Loading.tsx ✨<br>
-│   │       ├── 📄 Logo.tsx 🎨<br>
-│   │       ├── 📄 UserHeader.tsx 👤<br>
-│   │       └── 📄 AuthContext.tsx 🔑<br>
-│   ├── 📂 favorites/<br>
-│   │   └── 📄 page.tsx ❤️<br>
-│   ├── 📂 courses/<br>
-│   │   ├── 📂 [id]/<br>
-│   │   │   ├── 📂 player/<br>
-│   │   │   │   └── 📂 componentes/<br>
-│   │   │   │       └── 📄 CourseContent.tsx 📜<br>
-│   │   │   │   └── 📄 page.tsx 🎬<br>
-│   │   │   └── 📄 page.tsx ℹ️<br>
-│   │   └── 📄 page.tsx 📚<br>
-│   ├── 📄 layout.tsx ⚙️<br>
-│   └── 📄 page.tsx 🏠<br>
-├── 📂 data/<br>
-│   ├── 📄 courses.ts 📝<br>
-│   └── 📄 user.ts 🧑‍🤝‍🧑<br>
-├── 📂 public/<br>
-│   └── 📂 ... 🖼️<br>
-└── 📂 styles/<br>
-    └── 📄 globals.css 💅<br>
-
 📂: Pasta (diretório)<br>
 📄: Arquivo<br>
 ✨: Algo com funcionalidade interativa ou visual (Loading)<br>
