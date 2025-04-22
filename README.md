@@ -116,20 +116,21 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
 💅: Arquivo de estilos (CSS)
 
 
-📂: Pasta (diretório)&nbsp;
-📄: Arquivo&nbsp;
-✨: Algo com funcionalidade interativa ou visual (Loading)&nbsp;
-🎨: Elemento de design (Logo)&nbsp;
-👤: Componente relacionado ao usuário (UserHeader)&nbsp;
-🔑: Contexto de autenticação (AuthContext)&nbsp;
-❤️: Página de favoritos&nbsp;
-📜: Conteúdo detalhado (CourseContent)&nbsp;
-🎬: Página de visualização/player&nbsp;
-ℹ️: Página de detalhes (informações)&nbsp;
-📚: Página principal de cursos&nbsp;
-⚙️: Layout da aplicação&nbsp;
-🏠: Página inicial (splash screen)&nbsp;
-📝: Arquivo de dados (cursos)&nbsp;
-🧑‍🤝‍🧑: Arquivo de dados (usuário)&nbsp;
-🖼️: Pasta de arquivos públicos (imagens, etc.)&nbsp;
-💅: Arquivo de estilos (CSS)&nbsp;
+
+📂: Pasta (diretório)<br>
+📄: Arquivo<br>
+✨: Algo com funcionalidade interativa ou visual (Loading)<br>
+🎨: Elemento de design (Logo)<br>
+👤: Componente relacionado ao usuário (UserHeader)<br>
+🔑: Contexto de autenticação (AuthContext)<br>
+❤️: Página de favoritos<br>
+📜: Conteúdo detalhado (CourseContent)<br>
+🎬: Página de visualização/player<br>
+ℹ️: Página de detalhes (informações)<br>
+📚: Página principal de cursos<br>
+⚙️: Layout da aplicação<br>
+🏠: Página inicial (splash screen)<br>
+📝: Arquivo de dados (cursos)<br>
+🧑‍🤝‍🧑: Arquivo de dados (usuário)<br>
+🖼️: Pasta de arquivos públicos (imagens, etc.)<br>
+💅: Arquivo de estilos (CSS)<br>
