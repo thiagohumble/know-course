@@ -43,7 +43,7 @@ Siga estas etapas para rodar o KnowCourse em seu ambiente de desenvolvimento loc
     Após clonar o repositório, entre na pasta do projeto:
 
     ```bash
-    cd know-course
+    cd know-course-app
     ```
 
 3.  **Instale as Dependências:**
