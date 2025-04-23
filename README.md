@@ -1,7 +1,7 @@
-# KnowCourse - Sua Plataforma de Aprendizado Online
+# KnowCourse - Sua Plataforma de Aprendizado Online<br>https://know-course.vercel.app
 
 ![home](https://github.com/user-attachments/assets/e7c7e644-5044-4302-b843-ac979e5fd54e)
-<br>https://know-course.vercel.app
+
 
 
 
